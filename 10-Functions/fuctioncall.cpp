@@ -17,7 +17,7 @@
 // }
 
 // 1. call by value
-//  ->if we chage value of n in  function then actual value of n in main fuction will not change.
+//  ->if we change value of n in  function then actual value of n in main fuction will not change.
 //  #include<iostream>
 //  using namespace std;
 //  int increamentn(int n){
@@ -33,7 +33,7 @@
 //  }
 
 // 2. Call by reference
-// if changes are made for k in fuction it refelects in value in main.
+// ->if we change value of n in  function then actual value of n in main fuction will change.
 // #include <iostream>
 // using namespace std;
 // int increment(int &k)
