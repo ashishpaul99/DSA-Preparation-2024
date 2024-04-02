@@ -51,7 +51,28 @@
 // k: 11
 // c: 11
 
-// 2. call by value
+// 2. Function : call by value and call by reference 
+// 1. call by value
+
+#include<iostream>
+using namespace std;
+void incrementBy1(int n){
+    n=n+1;
+    cout<<"value of n is "<<n<<endl;
+
+}
+int main(){
+    int n;
+    cin>>n;
+    incrementBy1(n);
+}
+
+// Output: 
+// 10
+// value of n is 11
+
+
+// 2. call by reference
 // eg-1:increment n by 1
 // #include <iostream>
 // using namespace std;
