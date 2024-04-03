@@ -1,5 +1,4 @@
 // 1. Linear Search
-
 #include <iostream>
 using namespace std;
 void linearSearch(int arr[], int key, int n)
