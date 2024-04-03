@@ -15,8 +15,10 @@ int main(){
             oneCount++;
         }
     }
-    cout<<zeroCount<<" "<<oneCount++<<endl;
+    cout<<"number of zeros = "<<zeroCount<<endl;
+    cout<<"number of ones = "<<oneCount<<endl;
 }
 
 // Output:
-// 2 4
+// number of zeros = 2
+// number of ones = 4
