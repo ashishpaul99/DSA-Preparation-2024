@@ -1,5 +1,5 @@
 // 1. Linear Search
-// ->using flag
+// ->if key found flag=1 if not found flag=0
 
 // #include <iostream>
 // using namespace std;
