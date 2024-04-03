@@ -1,4 +1,4 @@
-// 4. Minimum number in an array
+// 4. Maximum number in an array
 // ->using limits.h header file
 // ->using INT_MIN
 #include <iostream>
