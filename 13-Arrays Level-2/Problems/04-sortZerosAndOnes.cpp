@@ -45,7 +45,7 @@ int main()
 // Output:
 // 0 0 0 0 0 0 1 1 1
 
-// 2. using for loop sorting zeros and ones
+// 2. using for loop
 #include <iostream>
 using namespace std;
 void sortOnesZeros(int arr[], int n)
