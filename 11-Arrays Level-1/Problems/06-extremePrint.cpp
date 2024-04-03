@@ -4,20 +4,20 @@
 // Odd array  -> input: arr -> {10,20,30,40,50} -> Output -> 10,60,20,50,30
 
 // 6.1 even array
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int n=6;
-//     int arr[n]={10,20,30,40,50,60};
-//     int left=0,right=n-1;
+#include<iostream>
+using namespace std;
+int main(){
+    int n=6;
+    int arr[n]={10,20,30,40,50,60};
+    int left=0,right=n-1;
 
-//     // extreme print logic
-//     while(left<=right){
-//         cout<<arr[left]<<" "<<arr[right]<<" ";
-//         left++;
-//         right--;
-//     }
-// }
+    // extreme print logic
+    while(left<=right){
+        cout<<arr[left]<<" "<<arr[right]<<" ";
+        left++;
+        right--;
+    }
+}
 
 // Output:
 // 10 60 20 50 30 40 
