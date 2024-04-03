@@ -1,5 +1,4 @@
 // 1. Linear Search
-// ->if key found flag=1 if not found flag=0
 
 #include <iostream>
 using namespace std;
@@ -26,3 +25,6 @@ int main()
     int key = 7;
     linearSearch(arr, key, size);
 }
+
+// Output:
+// key found at index 3
