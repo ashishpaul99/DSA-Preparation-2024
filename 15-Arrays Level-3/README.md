@@ -1,11 +1,11 @@
 📕1. Multi-dimensional array
-->2-D Arrays
-->Initializing and declaring 2-D arrays.
-->Printing 2-D Array
--> 1-D Vector
-->Inserting elements in 2-D vector
-->2-D Vector
-->Jagged Vector
+1. 2-D Arrays
+2. Initializing and declaring 2-D arrays.
+3. Printing 2-D Array
+4. 1-D Vector
+5. Inserting elements in 2-D vector
+6. 2-D Vector
+7. Jagged Vector
 
 🙋‍♂️Problems 
 1. Accessing column-wise elements in 2-D array
