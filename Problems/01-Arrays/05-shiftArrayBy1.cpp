@@ -1,7 +1,7 @@
 // 5. shift element of array by 1
 https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
-Solution-1: 
+// Solution-1: 
 void rotate(int arr[], int n)
 {  
     int temp=arr[n-1];
@@ -12,7 +12,7 @@ void rotate(int arr[], int n)
 }
 
 
-Solution-2
+// Solution-2
 // how to approach?
 // 1. Initialize two pointers, left and right, to the second-to-last and last indices of the array, respectively.
 // 2. Store the value of the last element of the array (arr[right]) in a temporary variable temp.
