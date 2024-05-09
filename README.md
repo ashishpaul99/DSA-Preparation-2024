@@ -22,12 +22,17 @@ Step-2 :  Devise a strategy
 ->Write logic in paper.
 
 1. Brute Force Solution
+2. 
 ->Plan to solve question using brute force approach.
-2. Efficient Solution
+
+4. Efficient Solution
+
 ->Find out efficent method to solve this question.
 ->If efficient method is know try to write on paper.
-4. Constraints - See that which algo works to solve the question by seeing the constraints
-5. Edge Cases and Conrner cases
+
+6. Constraints - See that which algo works to solve the question by seeing the constraints
+   
+8. Edge Cases and Conrner cases
 
 Step-3: Break down the problem if possible
 
@@ -41,19 +46,6 @@ Step-6: testing and debugging - Logical Mistake, Syntax Error, Spelling Mistake,
 handling edge cases.
 
 Step-7: Optimize and review
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
