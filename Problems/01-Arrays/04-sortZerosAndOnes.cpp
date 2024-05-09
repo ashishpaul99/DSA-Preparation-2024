@@ -1,4 +1,5 @@
 // 4. sort zeros and ones
+Problem Link: https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 // 1. counting approach
 // ->while is loop is used for sorting zeros and ones.
 // #include <iostream>
