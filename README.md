@@ -22,7 +22,7 @@ Step-2 :  Devise a strategy
 ->Write logic in paper.
 
 1. Brute Force Solution
-2. 
+    
 ->Plan to solve question using brute force approach.
 
 4. Efficient Solution
