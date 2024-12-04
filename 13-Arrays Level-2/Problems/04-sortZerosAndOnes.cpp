@@ -19,16 +19,15 @@ void sortOnesZeros(int arr[], int n)
         }
     }
 
-       int i=0;
-       while(i<zerosCount){
-          arr[i]=0;
-          i++;
-
-       }
-       while(i<n){
-          arr[i]=1;
-          i++;
-       }
+     int index=0;
+     while(zeroCount--){
+        arr[index]=0;
+        index++;
+     }
+     while(onesCount--){
+        arr[index]=1;
+        index++;
+     }
 
     //    printing array
         for(int i=0;i<n;i++){
@@ -91,39 +90,32 @@ int main()
 
 // 3. using two pointer approach
 // ->intialize left=0 and right=n-1.
-// ->
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n = 6;
-    int arr[n] = {0, 1, 1, 0, 1,0};
-    int left = 0, right = n - 1;
-    while (left < right)
-    {
-        while (arr[left] == 0 & left<right)
-        {
+void sortZerosOnes(int arr[], int n){
+    int left=0,right=n-1;
+    while(left<right){
+        if(arr[left]==0){
             left++;
         }
-
-        while (arr[right] == 1 && left<right)
-        {
+        else if(arr[right]==1){
             right--;
         }
-
-        // swap 0's and 1's
-        if (left < right)
-        {
-            swap(arr[left], arr[right]);
-            left++;
-            right--;
-        }
+        else{
+             swap(arr[left],arr[right]);
+             left++;
+             right--;
+        }    
     }
-
-    // printing sorted array
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
+}
+
+int main(){
+    int n=9;
+    int arr[]={0,1,0,1,1,0,0,0,0};
+    sortZerosOnes(arr,n);
 }
 
 // Output:
